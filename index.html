@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lac Hong Travel - Đặt tour du lịch trong nước và nước ngoài</title>
+        <meta
+            name="description"
+            content="Lac Hong Travel - Công ty du lịch uy tín, chuyên tổ chức tour trong nước và nước ngoài. Xem lịch trình, giá tour và đặt tour trực tuyến nhanh chóng."
+        />
+        <meta name="keywords" content="du lịch, đặt tour, tour trong nước, tour nước ngoài, Lac Hong Travel" />
+        <meta property="og:title" content="Lac Hong Travel - Đặt tour du lịch" />
+        <meta property="og:description" content="Khám phá và đặt tour du lịch trong nước, nước ngoài cùng Lac Hong Travel." />
+        <meta property="og:type" content="website" />
+        <link rel="icon" type="image/png" href="logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="10deso4.css" />
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <div class="header-inner">
+                    <div class="logo">Lac Hong<span>Travel</span></div>
+                    <nav class="menu" aria-label="Menu chính">
+                        <a href="#trang-chu">Trang chủ</a>
+                        <a href="#tour-trong-nuoc">Tour trong nước</a>
+                        <a href="#tour-nuoc-ngoai">Tour nước ngoài</a>
+                        <a href="#cam-nang">Cẩm nang</a>
+                        <a href="#dat-tour">Đặt tour</a>
+                    </nav>
+                    <div class="theme-switch">
+                        <input type="checkbox" id="dark-mode-toggle" onchange="document.body.classList.toggle('dark', this.checked)" />
+                        <label for="dark-mode-toggle">Chuyển chế độ sáng/tối</label>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <section class="banner" id="trang-chu" aria-label="Giới thiệu công ty">
+                    <div class="banner-content animate__animated animate__fadeInDown">
+                        <h1>Lac Hong Travel</h1>
+                        <p>Khám phá thế giới cùng những hành trình đáng nhớ</p>
+                        <button class="btn-primary" onclick="document.getElementById('danh-sach-tour').scrollIntoView({behavior:'smooth'})">
+                            Khám phá ngay
+                        </button>
+                    </div>
+                </section>
+                <section class="tour-section" id="danh-sach-tour" aria-label="Danh sách tour du lịch">
+                    <h2 class="section-title">Danh sách tour du lịch</h2>
+                    <div class="tour-list">
+                        <article class="tour-card animate__animated animate__fadeInUp" style="--animate-delay: 0s">
+                            <img src="vịnhalong.jpg" alt="Vịnh Hạ Long" loading="lazy" />
+                            <div class="tour-info">
+                                <h3>Vịnh Hạ Long</h3>
+                                <p class="tour-meta">3 ngày 2 đêm · Khởi hành: Đồng Nai</p>
+                                <p class="tour-price">1.230.000đ</p>
+                                <button class="btn-outline">Chọn tour</button>
+                            </div>
+                        </article>
+                        <article class="tour-card animate__animated animate__fadeInUp" style="--animate-delay: .1s">
+                            <img src="dalat.jpg" alt="Đà Lạt Tôi Yêu" loading="lazy" />
+                            <div class="tour-info">
+                                <h3>Đà Lạt Tôi Yêu</h3>
+                                <p class="tour-meta">4 ngày 3 đêm · Khởi hành: Đồng Nai</p>
+                                <p class="tour-price">4.560.000đ</p>
+                                <button class="btn-outline">Chọn tour</button>
+                            </div>
+                        </article>
+                        <article class="tour-card animate__animated animate__fadeInUp" style="--animate-delay: .2s">
+                            <img src="phuquoc.jpg" alt="Phú Quốc Beautyful" loading="lazy" />
+                            <div class="tour-info">
+                                <h3>Phú Quốc Beautyful</h3>
+                                <p class="tour-meta">3 ngày 2 đêm · Khởi hành: Đồng Nai</p>
+                                <p class="tour-price">7.890.000đ</p>
+                                <button class="btn-outline">Chọn tour</button>
+                            </div>
+                        </article>
+                        <article class="tour-card animate__animated animate__fadeInUp" style="--animate-delay: .3s">
+                            <img src="hanquoc.jpg" alt="Hàn Quốc Xinh Ngon Yêu" loading="lazy" />
+                            <div class="tour-info">
+                                <h3>Hàn Quốc Xinh Ngon Yêu</h3>
+                                <p class="tour-meta">5 ngày 4 đêm · Khởi hành: Đồng Nai</p>
+                                <p class="tour-price">15.900.000đ</p>
+                                <button class="btn-outline">Chọn tour</button>
+                            </div>
+                        </article>
+                        <article class="tour-card animate__animated animate__fadeInUp" style="--animate-delay: .4s">
+                            <img src="nhatban.jpg" alt="Nhật Bản Siêu Phẩm" loading="lazy" />
+                            <div class="tour-info">
+                                <h3>Nhật Bản Siêu Phẩm</h3>
+                                <p class="tour-meta">6 ngày 5 đêm · Khởi hành: Đồng Nai</p>
+                                <p class="tour-price">22.500.000đ</p>
+                                <button class="btn-outline">Chọn tour</button>
+                            </div>
+                        </article>
+                        <article class="tour-card animate__animated animate__fadeInUp" style="--animate-delay: .5s">
+                            <img src="thailan.jpg" alt="Thái Lan Qua Di Cap" loading="lazy" />
+                            <div class="tour-info">
+                                <h3>Thái Lan Qua Di Cap</h3>
+                                <p class="tour-meta">4 ngày 3 đêm · Khởi hành: Đồng Nai</p>
+                                <p class="tour-price">7.900.000đ</p>
+                                <button class="btn-outline">Chọn tour</button>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section class="form-section" id="dat-tour" aria-label="Form đặt tour">
+                    <h2 class="section-title">Đặt tour</h2>
+                    <form class="booking-form" onsubmit="event.preventDefault(); alert('Đặt tour thành công!');">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="ho-ten">Họ và tên</label>
+                                <input type="text" id="ho-ten" name="ho-ten" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="dien-thoai">Điện thoại</label>
+                                <input type="tel" id="dien-thoai" name="dien-thoai" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ngay-khoi-hanh">Ngày khởi hành</label>
+                                <input type="date" id="ngay-khoi-hanh" name="ngay-khoi-hanh" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="so-khach">Số khách</label>
+                                <input type="number" id="so-khach" name="so-khach" min="1" value="1" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="tour-muon-di">Tour muốn đi</label>
+                                <select id="tour-muon-di" name="tour-muon-di" required>
+                                    <option value="">-- Chọn tour --</option>
+                                    <option value="halong">Vịnh Hạ Long</option>
+                                    <option value="dalat">Đà Lạt Tôi Yêu</option>
+                                    <option value="phuquoc">Phú Quốc Beautyful</option>
+                                    <option value="hanquoc">Hàn Quốc Xinh Ngon Yêu</option>
+                                    <option value="nhatban">Nhật Bản Siêu Phẩm</option>
+                                    <option value="thailan">Thái Lan Qua Di Cap</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <fieldset class="form-group full-width">
+                            <legend>Loại phòng</legend>
+                            <div class="radio-group">
+                                <label for="phong-don"><input type="radio" id="phong-don" name="loai-phong" value="don" checked /> Phòng đơn</label>
+                                <label for="phong-doi"><input type="radio" id="phong-doi" name="loai-phong" value="doi" /> Phòng đôi</label>
+                                <label for="phong-gia-dinh"
+                                    ><input type="radio" id="phong-gia-dinh" name="loai-phong" value="gia-dinh" /> Phòng gia đình</label
+                                >
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="form-group full-width">
+                            <legend>Dịch vụ thêm</legend>
+                            <div class="checkbox-group">
+                                <label for="dv-an-uong"><input type="checkbox" id="dv-an-uong" name="dich-vu" value="an-uong" /> Ăn uống theo yêu cầu</label>
+                                <label for="dv-hdv"><input type="checkbox" id="dv-hdv" name="dich-vu" value="huong-dan-vien" /> Hướng dẫn viên riêng</label>
+                                <label for="dv-bao-hiem"><input type="checkbox" id="dv-bao-hiem" name="dich-vu" value="bao-hiem" /> Bảo hiểm du lịch</label>
+                                <label for="dv-xe"><input type="checkbox" id="dv-xe" name="dich-vu" value="xe-dua-don" /> Xe đưa đón sân bay</label>
+                            </div>
+                        </fieldset>
+
+                        <div class="form-group full-width">
+                            <label for="yeu-cau">Yêu cầu đặc biệt</label>
+                            <textarea id="yeu-cau" name="yeu-cau" rows="4" placeholder="Ví dụ: ăn chay, cần phòng tầng thấp..."></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn-primary">Đặt tour</button>
+                            <button type="reset" class="btn-outline">Hủy</button>
+                        </div>
+                    </form>
+                </section>
+            </main>
+            <footer class="footer">
+                <p>Địa chỉ văn phòng: Đường Huỳnh Văn Nghệ , Phường Trấn Biên , Biên Hòa , Đồng Nai</p>
+                <p>Số giấy phép lữ hành: 25CT114 /2025 TCDL-GPLHQT</p>
+                <p>Hotline: 6789 8386 9999</p>
+                <p>&copy; Bản Quyền Thuộc Về Đại Học Lạc Hồng.</p>
+            </footer>
+        </div>
+    </body>
+</html>
